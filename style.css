@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -30,3 +37,7 @@ footer {
   color: #2BBAA9; /* Verde azulado para el texto */
   padding: 15px;
 }
+    }
+  </style>
+</head>
+</html>
