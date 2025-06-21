@@ -1,34 +1,32 @@
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    nav {
-      background-color: #333;
-      color: white;
-      padding: 1em 0;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-    header, section, footer {
-      padding: 20px;
-      text-align: center;
-    }
-    footer {
-      background-color: #f1f1f1;
-      padding: 15px;
-    }
-  </style>
-</head>
-</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffcf1; /* Beige cremoso */
+  color: #2BBAA9; /* Verde azulado para el texto principal */
+}
+nav {
+  background-color: #2BBAA9; /* Verde azulado */
+  color: #fffcf1; /* Beige cremoso para el texto */
+  padding: 1em 0;
+  text-align: center;
+}
+nav a {
+  color: #fffcf1; /* Beige cremoso */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #5AB8C2; /* Azul Turquesa Claro en hover */
+}
+header, section, footer {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: #5AB8C2; /* Azul Turquesa Claro */
+  color: #2BBAA9; /* Verde azulado para el texto */
+  padding: 15px;
+}
